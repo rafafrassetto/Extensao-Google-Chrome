@@ -1,10 +1,19 @@
 {
-    "name": "Extensão Rafael Frassetto Pereira",
-    "description": "Extensão de testes",
+    "manifest_version": 3,
+    "name": "Trocar Imagens",
     "version": "1.0",
-    "manifest _version": 3,
-    "permissions": ["activeTab", "scripting"],
+    "description": "Substitui todas as imagens da página pelo link URL fornecido.",
+    "permissions": ["activeTab"],
     "action": {
-      "default_popup": "index.html"
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
   }

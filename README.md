@@ -1,1 +1,1 @@
-# Extens-o-Google-Chrome
+# Extensao-Google-Chrome

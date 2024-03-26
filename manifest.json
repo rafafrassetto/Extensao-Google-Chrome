@@ -1,0 +1,10 @@
+{
+    "name": "Extensão Rafael Frassetto Pereira",
+    "description": "Extensão de testes",
+    "version": "1.0",
+    "manifest _version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
